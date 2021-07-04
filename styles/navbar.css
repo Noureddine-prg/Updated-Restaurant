@@ -1,0 +1,57 @@
+.navbar {
+  /*background-color: rgba(160, 186, 232, 1);*/
+  background-color: var(--navbarcolor);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 4rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.logo-image {
+  margin-top: 0.5rem;
+  margin-left: 10.5rem;
+  margin-right: 10.5rem;
+  margin-bottom: 0.5rem;
+  width: 80px;
+  height: 50px;
+}
+
+.navbar-text {
+  color: rgb(227, 227, 227);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: left;
+  font-size: 3rem;
+  width: 51rem;
+  margin: 0rem;
+  padding: 0rem;
+  font-family: "Dancing Script", cursive;
+}
+
+.navbar-links {
+  display: flex;
+  width: 45%;
+  justify-content: space-around;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.navbar-links a {
+  border: white;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 3px;
+  color: rgb(227, 227, 227);
+}
+
+.navbar-links a:hover {
+  transition: 1.5s;
+  color: green;
+}

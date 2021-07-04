@@ -1,0 +1,104 @@
+.background {
+  height: 100vh;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: black;
+  padding: 5rem;
+  display: flex;
+}
+
+.content_header {
+  text-align: center;
+  color: white;
+  font-size: 45px;
+  font-family: "Dancing Script", cursive;
+}
+
+.menu_column {
+  width: 65rem;
+  height: 50rem;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: black;
+  margin: 40px 80px 10px 40px;
+  border: white solid 1.5px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm21-wood-ae-57-i.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=2998943de352bc3c2e77fe9c31ed8295);
+}
+
+/* These are the indivividual cards for the dishes */
+.content_container {
+  margin-bottom: 2.5rem;
+  width: 30rem;
+  height: 14rem;
+  background-color: black;
+  opacity: 0.9;
+  display: flex;
+  padding: 0;
+}
+
+/* This is the Image Section */
+.image_container {
+  width: 15rem;
+  height: 14rem;
+  margin-right: 0;
+  flex-direction: column;
+  border: white solid 0.5px;
+  overflow: hidden;
+}
+
+.image_style {
+  height: 14rem;
+  width: 15rem;
+}
+
+/* This is the description Section */
+.description_container {
+  width: 15rem;
+  height: 14rem;
+  margin: 0;
+  border: white solid 0.5px;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.dish_title {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: "Dancing Script", cursive;
+}
+
+.dish_description {
+  color: white;
+  text-align: left;
+  margin-top: 1rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.order {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.order>button {
+  background-color: white;
+  border: white solid 1px;
+  outline: none;
+  height: 32px;
+  width: 100px;
+  border-radius: 5px;
+  font: bold;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.order>button:hover {
+  color: white;
+  background-color: black;
+}

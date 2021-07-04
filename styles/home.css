@@ -1,0 +1,91 @@
+.background {
+  height: 100vh;
+  background-color: black;
+  padding: 5rem;
+  display: flex;
+}
+
+/* This is the container for the image slider */
+.slide-container {
+  width: 1200px;
+  height: 800px;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+  margin-left: 5rem;
+  margin-right: 0;
+  border-radius: 1rem;
+  border-color: wheat;
+}
+
+.image-container {
+  position: relative;
+  height: 800px;
+  width: 3600px;
+  transition: right 1.5s;
+}
+
+.slider-image {
+  float: left;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+.button-container {
+  top: -60px;
+  height: 5rem;
+  position: relative;
+}
+
+.slider-button {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  border: solid white 3px;
+  background-color: black;
+  margin: 10px;
+}
+
+#slider-image-1:target~.image-container {
+  right: 0px;
+}
+
+#slider-image-2:target~.image-container {
+  right: 1200px;
+}
+
+#slider-image-3:target~.image-container {
+  right: 2400px;
+}
+
+/* This is the container for the welcome section on the right side */
+
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  margin: 0rem;
+  padding: 0;
+  background-color: black;
+  color: white;
+  width: 50rem;
+  height: 50rem;
+  margin-left: 2rem;
+  border-radius: 5px;
+  border-top: #ff726f 1rem solid;
+  border-bottom: lightgreen 1rem solid;
+  background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm21-wood-ae-57-i.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=2998943de352bc3c2e77fe9c31ed8295);
+}
+
+.welcome-section_header {
+  text-align: center;
+  font-size: 60px;
+  font-family: "Dancing Script", cursive;
+}
+
+.welcome-section_text {
+  text-align: center;
+  font-size: 50px;
+  width: 50rem;
+  font-family: "Dancing Script", cursive;
+}
